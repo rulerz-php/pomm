@@ -1,9 +1,9 @@
-tests: phpspec behat
+tests: unit behat
 
 release:
 	./vendor/bin/RMT release
 
-phpspec:
+unit:
 	php ./vendor/bin/phpunit
 
 behat:
