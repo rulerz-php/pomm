@@ -1,0 +1,37 @@
+{
+    "name": "rulerz-php/pomm",
+    "description": "Pomm compilation target for RulerZ",
+    "keywords": ["rulerz", "specification", "rule", "engine", "pomm"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kévin Gomez",
+            "email": "contact@kevingomez.fr",
+            "homepage": "http://www.kevingomez.fr/"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+
+        "kphoen/rulerz": "dev-master",
+
+        "pomm-project/foundation": "~2.0@dev",
+        "pomm-project/model-manager": "~2.0.@dev",
+        "pomm-project/cli": "~2.0@dev"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.0,>=2.4@dev",
+        "liip/rmt": "^1.2"
+    },
+    "autoload": {
+        "psr-4": { "RulerZ\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\RulerZ\\": "tests/",
+            "spec\\RulerZ\\": "tests/spec/RulerZ/"
+        }
+    }
+}
+
