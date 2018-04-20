@@ -6,6 +6,12 @@ cache:
     directories:
         - $HOME/.composer/cache
 
+addons:
+    postgresql: "9.4"
+
+services:
+    - postgresql
+
 branches:
     only:
         - master
@@ -24,4 +30,5 @@ install:
     - composer install --optimize-autoloader --no-interaction
 
 script:
+    - make databases
     - make tests
