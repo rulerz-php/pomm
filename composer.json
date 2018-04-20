@@ -14,7 +14,7 @@
     "require": {
         "php": ">=7.1",
 
-        "kphoen/rulerz": ">=0.19",
+        "kphoen/rulerz": "dev-master as 0.30.0",
 
         "pomm-project/foundation": "~2.0@dev",
         "pomm-project/model-manager": "~2.0.@dev",
