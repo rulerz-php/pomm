@@ -17,3 +17,6 @@ docker_stop:
 
 database:
 	./examples/scripts/create_database.sh
+
+rusty:
+	php ./vendor/bin/rusty check --no-execute README.md

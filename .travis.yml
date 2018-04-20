@@ -32,3 +32,4 @@ install:
 script:
     - make database
     - make tests
+    - make rusty
