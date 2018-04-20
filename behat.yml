@@ -7,5 +7,5 @@ default:
 
     suites:
         pomm:
-            paths:    [ '%paths.base%/features/common' ]
+            paths: [ '%paths.base%/features/common' ]
             contexts: [ Context ]

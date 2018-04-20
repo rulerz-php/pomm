@@ -5,7 +5,6 @@ declare(strict_types=1);
 use Behat\Behat\Context\Context as BehatContext;
 use Behat\Gherkin\Node\PyStringNode;
 use Behat\Gherkin\Node\TableNode;
-use Behat\Testwork\Hook\Scope\BeforeSuiteScope;
 use PommProject\Foundation\Pomm;
 
 class Context implements BehatContext
