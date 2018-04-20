@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace RulerZ\Target\Pomm;
+namespace RulerZ\Pomm\Target;
 
 use PommProject\ModelManager\Model\Model as PommModel;
 
 use RulerZ\Compiler\Context;
 use RulerZ\Executor\Polyfill\FilterBasedSatisfaction;
-use RulerZ\Executor\Pomm\FilterTrait;
 use RulerZ\Target\AbstractSqlTarget;
 use RulerZ\Target\Operators\Definitions;
+use RulerZ\Pomm\Executor\FilterTrait;
 
 class Pomm extends AbstractSqlTarget
 {

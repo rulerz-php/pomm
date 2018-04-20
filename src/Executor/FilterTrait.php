@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace RulerZ\Executor\Pomm;
+namespace RulerZ\Pomm\Executor;
 
 use RulerZ\Context\ExecutionContext;
 use RulerZ\Result\IteratorTools;

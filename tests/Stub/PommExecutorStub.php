@@ -1,8 +1,10 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Tests\RulerZ\Stub;
 
-use RulerZ\Executor\Pomm\FilterTrait;
+use RulerZ\Pomm\Executor\FilterTrait;
 
 class PommExecutorStub
 {

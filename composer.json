@@ -21,17 +21,15 @@
         "pomm-project/cli": "~2.0@dev"
     },
     "require-dev": {
-        "phpspec/phpspec": "~2.0,>=2.4@dev",
-        "liip/rmt": "^1.2"
+        "liip/rmt": "^1.2",
+        "phpunit/phpunit": "^7.1"
     },
     "autoload": {
-        "psr-4": { "RulerZ\\": "src/" }
+        "psr-4": { "RulerZ\\Pomm\\": "src/" }
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\RulerZ\\": "tests/",
-            "spec\\RulerZ\\": "tests/spec/RulerZ/"
+            "Tests\\RulerZ\\": "tests/"
         }
     }
 }
-

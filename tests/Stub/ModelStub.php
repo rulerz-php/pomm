@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Tests\RulerZ\Stub;
 
 use PommProject\ModelManager\Model\ModelTrait\ReadQueries;

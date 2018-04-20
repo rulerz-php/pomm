@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace RulerZ\Target\Pomm;
+namespace RulerZ\Pomm\Target;
 
 use Hoa\Ruler\Model as AST;
 
