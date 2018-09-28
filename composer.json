@@ -14,11 +14,11 @@
     "require": {
         "php": ">=7.1",
 
-        "kphoen/rulerz": "dev-master as 0.30.0",
+        "kphoen/rulerz": "dev-master as 1.0.0",
 
-        "pomm-project/foundation": "~2.0@dev",
-        "pomm-project/model-manager": "~2.0.@dev",
-        "pomm-project/cli": "~2.0@dev"
+        "pomm-project/foundation": "^2.0",
+        "pomm-project/model-manager": "^2.0",
+        "pomm-project/cli": "^2.0"
     },
     "require-dev": {
         "liip/rmt": "^1.2",
