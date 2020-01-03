@@ -5,9 +5,9 @@ declare(strict_types=1);
 use PommProject\Foundation\Pomm;
 use RulerZ\RulerZ;
 
-require __DIR__ . '/../vendor/autoload.php';
+require __DIR__.'/../vendor/autoload.php';
 
-$dotenv = new Dotenv\Dotenv(__DIR__ . '/../');
+$dotenv = new Dotenv\Dotenv(__DIR__.'/../');
 $dotenv->load();
 
 $pomm = new Pomm(['test_rulerz' => [
